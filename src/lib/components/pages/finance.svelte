@@ -22,54 +22,48 @@
   ];
 </script>
 
-<div class="flex justify-center mx-8">
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-    <div class="md:w-[400px] h-[400px] p-4 bg-white rounded-3xl py-4 md:-mt-20">
-      <div class="flex justify-between items-start">
-        <h2 class="text-3xl font-bold">Web Designer</h2>
-        <div
-          class="bg-blue-500 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center"
-        >
-          14
-        </div>
-      </div>
-      <p class="pr-4 pt-3 text-lg">
-        When you search for free CSS templates, you will notice that TemplateMo
-        is one of the best websites.
-      </p>
-      <img src="images/web-design.png" alt="" srcset="" class="w-auto" />
-    </div>
-
-    <div
-      class="w-[550px] h-[400px] p-4 bg-white rounded-3xl
-    bg-[linear-gradient(rgba(19,84,122,0.6),rgba(19,84,122,0.6)),url('/images/businesswoman-using-tablet-analysis.jpg')]
-     bg-cover bg-center md:-mt-20"
-    >
+<div class="flex justify-center px-4 md:px-8 py-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-7xl">
+    <!-- Investment Card -->
+    <div class="w-full min-h-[300px] p-4 bg-white rounded-3xl shadow-md flex flex-col justify-between">
       <div>
         <div class="flex justify-between items-start">
-          <h2 class="text-white text-3xl font-bold">Finance</h2>
-          <div
-            class="bg-blue-500 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center"
-          >
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Investment</h2>
+          <div class="bg-blue-500 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center">
+            30
+          </div>
+        </div>
+        <p class="pt-3 text-gray-600 text-base text-start md:text-lg">
+          Lorem Ipsum dolor sit amet consectetur
+        </p>
+      </div>
+      <img src="images/web-design.png" alt="Investment Graph" class="w-full h-[250px] mt-4 object-contain" />
+    </div>
+
+    <!-- Finance Card -->
+    <div
+      class="w-full p-4 rounded-3xl bg-cover bg-center text-white flex flex-col justify-between"
+      style="background-image: linear-gradient(rgba(19,84,122,0.6), rgba(19,84,122,0.6)), url('/images/businesswoman-using-tablet-analysis.jpg');"
+    >
+      <div class="flex flex-col justify-start">
+        <div class="flex justify-between items-start">
+          <h2 class="text-2xl md:text-3xl font-bold">Finance</h2>
+          <div class="bg-blue-500 text-white text-xs font-bold rounded-full w-8 h-8 flex items-center justify-center">
             25
           </div>
         </div>
 
-        <p class="text-white text-lg mt-4">
-          Topic Listing Template includes homepage, listing page, detail page,
-          and contact page. You can feel free to edit and adapt for your CMS
-          requirements.
+        <p class="mt-4 text-base text-start md:text-lg">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis.
         </p>
 
-        <button
-          class="mt-6 bg-[#80d0c7] text-white font-semibold py-2 px-6 rounded-full hover:bg-[#5bb5a8]"
-        >
+        <button class="mt-6 bg-[#80d0c7] w-52 text-white font-semibold py-2 px-6 rounded-full hover:bg-[#5bb5a8] transition duration-300">
           Learn More
         </button>
       </div>
 
       <div class="mt-24">
-        <p class="text-white text-sm mb-2">Share:</p>
+        <p class="text-white text-start text-sm mb-2">Share:</p>
         <div class="flex space-x-4">
           <button
             class="w-10 h-10 bg-[#80d0c7] rounded-full flex items-center justify-center text-white"
