@@ -161,13 +161,14 @@
   </div>
 </section>
 
-<section class="my-5">
+<section class="my-5" id="browse-topics">
   <Browsetopics />
 </section>
 
 <section
   class="my-8 bg-[linear-gradient(rgba(19,84,122,0.8),rgba(19,84,122,0.8)),url('/images/colleagues-working-cozy-office-medium-shot.jpg')]
    h-auto w-full bg-cover bg-no-repeat"
+   id="how-it-works"
 >
   <div
     class="flex flex-col justify-center items-center gap-14 py-10 text-white"
@@ -209,10 +210,10 @@
 </section>
 
 
-<section>
+<section id="faq">
   <Faq />
 </section>
 
-<section>
+<section id="contact-us">
   <Contact />
 </section>

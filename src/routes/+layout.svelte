@@ -8,12 +8,12 @@
   let { children } = $props();
 
   const navItems = [
-    { name: "HOME", href: "#projects" },
-    { name: "Browse Topics", href: "#about" },
-    { name: "How It Works", href: "#about" },
-    { name: "FAQ's", href: "#contact" },
-    { name: "Contact", href: "#contact" },
-    { name: "PAGES", href: "#contact" },
+    { name: "HOME", href: "/" },
+    { name: "Browse Topics", href: "#browse-topics" },
+    { name: "How It Works", href: "#how-it-works" },
+    { name: "FAQ's", href: "#faq" },
+    { name: "Contact", href: "#contact-us" },
+    { name: "PAGES", href: "#" },
   ];
 
   let scrolled = $state(false);
